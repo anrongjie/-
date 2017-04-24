@@ -15,6 +15,8 @@
 		38392B831EAD85ED007A8E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38392B811EAD85ED007A8E85 /* LaunchScreen.storyboard */; };
 		38392B8E1EAD85ED007A8E85 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38392B8D1EAD85ED007A8E85 /* __Tests.m */; };
 		38392B991EAD85ED007A8E85 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38392B981EAD85ED007A8E85 /* __UITests.m */; };
+		38392BAA1EAD85FE007A8E85 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 38392BA71EAD85FE007A8E85 /* ChineseString.m */; };
+		38392BAB1EAD85FE007A8E85 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 38392BA81EAD85FE007A8E85 /* pinyin.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		38392B941EAD85ED007A8E85 /* 排序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38392B981EAD85ED007A8E85 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		38392B9A1EAD85ED007A8E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38392BA61EAD85FE007A8E85 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		38392BA71EAD85FE007A8E85 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		38392BA81EAD85FE007A8E85 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		38392BA91EAD85FE007A8E85 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				38392B771EAD85ED007A8E85 /* AppDelegate.m */,
 				38392B791EAD85ED007A8E85 /* ViewController.h */,
 				38392B7A1EAD85ED007A8E85 /* ViewController.m */,
+				38392BA61EAD85FE007A8E85 /* ChineseString.h */,
+				38392BA71EAD85FE007A8E85 /* ChineseString.m */,
+				38392BA81EAD85FE007A8E85 /* pinyin.c */,
+				38392BA91EAD85FE007A8E85 /* pinyin.h */,
 				38392B7C1EAD85ED007A8E85 /* Main.storyboard */,
 				38392B7F1EAD85ED007A8E85 /* Assets.xcassets */,
 				38392B811EAD85ED007A8E85 /* LaunchScreen.storyboard */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38392BAB1EAD85FE007A8E85 /* pinyin.c in Sources */,
+				38392BAA1EAD85FE007A8E85 /* ChineseString.m in Sources */,
 				38392B7B1EAD85ED007A8E85 /* ViewController.m in Sources */,
 				38392B781EAD85ED007A8E85 /* AppDelegate.m in Sources */,
 				38392B751EAD85ED007A8E85 /* main.m in Sources */,
